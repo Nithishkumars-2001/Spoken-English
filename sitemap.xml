@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+        <loc>https://spokenenglishclass.netlify.app/</loc>
+        <priority>1.0</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://spokenenglishclass.netlify.app/about.html</loc>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://spokenenglishclass.netlify.app/contact.html</loc>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://spokenenglishclass.netlify.app/privacy-policy.html</loc>
+        <priority>0.6</priority>
+        <changefreq>yearly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://spokenenglishclass.netlify.app/short-sentences.html</loc>
+        <priority>0.9</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://spokenenglishclass.netlify.app/medium-sentences.html</loc>
+        <priority>0.9</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://spokenenglishclass.netlify.app/paragraph-practice.html</loc>
+        <priority>0.9</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+
+</urlset>
