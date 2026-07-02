@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spoken English Class | Learn to Speak English Confidently</title>
+  <meta name="description"
+    content="Practice translating Tamil sentences into grammatically correct English with instant feedback, corrections, and explanations.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600;700&family=Noto+Sans+Tamil:wght@400;600&display=swap"
+    rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+  <nav class="navbar navbar-expand-lg navbar-custom">
+    <div class="container">
+      <a class="navbar-brand navbar-brand-custom" href="home.html">
+        <span class="brand-badge"><i class="bi bi-mortarboard-fill"></i></span>
+        Spoken English Class
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+        aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+          <li class="nav-item"><a class="nav-link active" href="home.html">Home</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="practiceDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Practice</a>
+            <ul class="dropdown-menu dropdown-menu-custom" aria-labelledby="practiceDropdown">
+              <li><a class="dropdown-item" href="pages/short-sentences.html"><i
+                    class="bi bi-chat-left-text me-2"></i>Short Sentences</a></li>
+              <li><a class="dropdown-item" href="pages/medium-sentences.html"><i
+                    class="bi bi-chat-square-text me-2"></i>Medium Sentences</a></li>
+              <li><a class="dropdown-item" href="pages/paragraph-practice.html"><i
+                    class="bi bi-file-earmark-text me-2"></i>Paragraph Practice</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="privacy-policy.html">Privacy Policy</a></li>
+          <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+            <a href="pages/short-sentences.html" class="btn btn-primary-custom w-100">Start Practicing</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ================= HERO ================= -->
+  <header class="hero">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 animate-fadeup">
+          <span class="eyebrow">Tamil → English Practice</span>
+          <h1 class="mb-3">Speak English <span class="text-gradient">Confidently</span>, One Sentence at a Time</h1>
+          <p class="lead text-secondary mb-4" style="max-width: 520px;">
+            Translate Tamil sentences and paragraphs into English, get instant grammar checks,
+            see your mistakes highlighted, and learn from clear explanations — completely free.
+          </p>
+          <div class="d-flex flex-wrap gap-3">
+            <a href="pages/short-sentences.html" class="btn btn-primary-custom">
+              <i class="bi bi-play-fill me-1"></i> Start Learning Now
+            </a>
+            <a href="about.html" class="btn btn-outline-custom">Learn More</a>
+          </div>
+          <div class="hero-stats">
+            <div>
+              <div class="stat-num">30+</div>
+              <div class="stat-label">Practice Sentences</div>
+            </div>
+            <div>
+              <div class="stat-num">3</div>
+              <div class="stat-label">Practice Levels</div>
+            </div>
+            <div>
+              <div class="stat-num">100%</div>
+              <div class="stat-label">Free Forever</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 mt-5 mt-lg-0">
+          <div class="hero-visual">
+            <div class="tamil-box mb-3">
+              <span class="label-small">Tamil Sentence</span>
+              <p class="tamil-text mb-0">நான் பள்ளிக்குச் செல்கிறேன்.</p>
+            </div>
+            <label class="fw-semibold mb-2 text-secondary small">Your English Translation</label>
+            <textarea class="answer-input mb-3" rows="2" disabled
+              placeholder="I go to school.">I go to school.</textarea>
+            <div class="result-panel" style="margin-top:0;">
+              <div class="result-header correct"><i class="bi bi-check-circle-fill"></i> Great job! Your answer is
+                correct.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= FEATURES ================= -->
+  <section class="section-pad">
+    <div class="container">
+      <div class="text-center mb-5 reveal">
+        <span class="eyebrow">Why Choose Us</span>
+        <h2 class="section-title">Everything You Need to Master Spoken English</h2>
+        <p class="section-sub mx-auto">A simple, focused way to practice translation and grammar — designed for Tamil
+          speakers learning English.</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4 reveal">
+          <div class="feature-card">
+            <div class="feature-icon"><i class="bi bi-translate"></i></div>
+            <h5>Tamil to English Translation</h5>
+            <p class="text-secondary mb-0">Practice with real Tamil sentences and paragraphs, ranging from simple to
+              advanced levels.</p>
+          </div>
+        </div>
+        <div class="col-md-4 reveal">
+          <div class="feature-card accent">
+            <div class="feature-icon"><i class="bi bi-highlighter"></i></div>
+            <h5>Instant Error Highlighting</h5>
+            <p class="text-secondary mb-0">See exactly which words are correct and which need improvement, highlighted
+              clearly.</p>
+          </div>
+        </div>
+        <div class="col-md-4 reveal">
+          <div class="feature-card success">
+            <div class="feature-icon"><i class="bi bi-lightbulb"></i></div>
+            <h5>Clear Explanations</h5>
+            <p class="text-secondary mb-0">Understand *why* a correction was made with simple grammar tips after every
+              attempt.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PRACTICE LEVELS ================= -->
+  <section class="section-pad bg-white">
+    <div class="container">
+      <div class="text-center mb-5 reveal">
+        <span class="eyebrow">Practice Levels</span>
+        <h2 class="section-title">Choose Your Practice Level</h2>
+        <p class="section-sub mx-auto">Progress step by step — from short sentences to full paragraphs.</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4 reveal">
+          <div class="practice-card level-short">
+            <div class="card-top">
+              <i class="bi bi-chat-left-text fs-2"></i>
+              <h5 class="text-white mt-3 mb-1">Short Sentences</h5>
+              <p class="mb-0 opacity-75">Beginner friendly</p>
+            </div>
+            <div class="card-body-custom">
+              <p class="text-secondary">Translate short, everyday Tamil sentences into English and build your
+                foundation.</p>
+              <a href="pages/short-sentences.html" class="btn btn-primary-custom w-100">Practice Now <i
+                  class="bi bi-arrow-right ms-1"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 reveal">
+          <div class="practice-card level-medium">
+            <div class="card-top">
+              <i class="bi bi-chat-square-text fs-2"></i>
+              <h5 class="text-white mt-3 mb-1">Medium Sentences</h5>
+              <p class="mb-0 opacity-75">Intermediate level</p>
+            </div>
+            <div class="card-body-custom">
+              <p class="text-secondary">Work with longer, more complex sentences involving multiple clauses and tenses.
+              </p>
+              <a href="pages/medium-sentences.html" class="btn btn-accent-custom w-100">Practice Now <i
+                  class="bi bi-arrow-right ms-1"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 reveal">
+          <div class="practice-card level-paragraph">
+            <div class="card-top">
+              <i class="bi bi-file-earmark-text fs-2"></i>
+              <h5 class="text-white mt-3 mb-1">Paragraph Practice</h5>
+              <p class="mb-0 opacity-75">Advanced level</p>
+            </div>
+            <div class="card-body-custom">
+              <p class="text-secondary">Translate full Tamil paragraphs and get detailed, sentence-by-sentence
+                corrections.</p>
+              <a href="pages/paragraph-practice.html" class="btn w-100"
+                style="background:linear-gradient(95deg,var(--success),#0d7a52); color:white; border:none; border-radius:50px; font-weight:600; padding:0.75rem 1.75rem;">Practice
+                Now <i class="bi bi-arrow-right ms-1"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= HOW IT WORKS ================= -->
+  <section class="section-pad">
+    <div class="container">
+      <div class="text-center mb-5 reveal">
+        <span class="eyebrow">Simple Process</span>
+        <h2 class="section-title">How It Works</h2>
+      </div>
+      <div class="row g-4 text-center">
+        <div class="col-md-3 reveal">
+          <div class="feature-icon mx-auto">1</div>
+          <h6 class="mt-3">Read the Tamil Text</h6>
+          <p class="text-secondary small">A Tamil sentence or paragraph is shown to you.</p>
+        </div>
+        <div class="col-md-3 reveal">
+          <div class="feature-icon mx-auto"
+            style="background:linear-gradient(135deg, var(--accent), var(--accent-dark));">2</div>
+          <h6 class="mt-3">Type Your Translation</h6>
+          <p class="text-secondary small">Write the English translation in the answer box.</p>
+        </div>
+        <div class="col-md-3 reveal">
+          <div class="feature-icon mx-auto" style="background:linear-gradient(135deg, var(--success), #0d7a52);">3</div>
+          <h6 class="mt-3">Get Instant Feedback</h6>
+          <p class="text-secondary small">Errors are highlighted and explained clearly.</p>
+        </div>
+        <div class="col-md-3 reveal">
+          <div class="feature-icon mx-auto" style="background:linear-gradient(135deg, #7b5cff, #4b2ad1);">4</div>
+          <h6 class="mt-3">Learn & Improve</h6>
+          <p class="text-secondary small">See the corrected sentence and understand why.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= TESTIMONIALS ================= -->
+  <section class="section-pad bg-white">
+    <div class="container">
+      <div class="text-center mb-5 reveal">
+        <span class="eyebrow">Learner Feedback</span>
+        <h2 class="section-title">What Our Learners Say</h2>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4 reveal">
+          <div class="testimonial-card">
+            <div class="d-flex align-items-center gap-3 mb-3">
+              <div class="testimonial-avatar">P</div>
+              <div>
+                <h6 class="mb-0">Priya S.</h6>
+                <small class="text-secondary">College Student</small>
+              </div>
+            </div>
+            <p class="text-secondary mb-0">"The instant corrections helped me understand my grammar mistakes so much
+              faster than a textbook."</p>
+          </div>
+        </div>
+        <div class="col-md-4 reveal">
+          <div class="testimonial-card">
+            <div class="d-flex align-items-center gap-3 mb-3">
+              <div class="testimonial-avatar">M</div>
+              <div>
+                <h6 class="mb-0">Muthu K.</h6>
+                <small class="text-secondary">Job Seeker</small>
+              </div>
+            </div>
+            <p class="text-secondary mb-0">"Practicing paragraph translation gave me the confidence to speak in
+              interviews."</p>
+          </div>
+        </div>
+        <div class="col-md-4 reveal">
+          <div class="testimonial-card">
+            <div class="d-flex align-items-center gap-3 mb-3">
+              <div class="testimonial-avatar">A</div>
+              <div>
+                <h6 class="mb-0">Anitha R.</h6>
+                <small class="text-secondary">Teacher</small>
+              </div>
+            </div>
+            <p class="text-secondary mb-0">"I recommend this to all my students. Simple, clear, and genuinely useful
+              explanations."</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CTA ================= -->
+  <section class="section-pad">
+    <div class="container">
+      <div class="cta-band reveal">
+        <h2 class="text-white mb-3">Ready to Improve Your Spoken English?</h2>
+        <p class="mb-4 opacity-75">Start with short sentences today — it only takes a few minutes.</p>
+        <a href="pages/short-sentences.html" class="btn btn-light fw-semibold px-4 py-2 rounded-pill">Get Started Free
+          <i class="bi bi-arrow-right ms-1"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer-custom">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4">
+          <div class="footer-brand mb-3"><i class="bi bi-mortarboard-fill me-2"></i>Spoken English Class</div>
+          <p class="small">A free platform to help Tamil speakers practice and master spoken and written English through
+            guided translation exercises.</p>
+          <div class="footer-social mt-3">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-youtube"></i></a>
+            <a href="#"><i class="bi bi-twitter-x"></i></a>
+          </div>
+        </div>
+        <div class="col-6 col-lg-2">
+          <h5>Practice</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="pages/short-sentences.html">Short Sentences</a></li>
+            <li class="mb-2"><a href="pages/medium-sentences.html">Medium Sentences</a></li>
+            <li class="mb-2"><a href="pages/paragraph-practice.html">Paragraph Practice</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-3">
+          <h5>Company</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="home.html">Home</a></li>
+            <li class="mb-2"><a href="about.html">About Us</a></li>
+            <li class="mb-2"><a href="contact.html">Contact</a></li>
+            <li class="mb-2"><a href="privacy-policy.html">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <h5>Contact</h5>
+          <ul class="list-unstyled small">
+            <li class="mb-2"><i class="bi bi-envelope me-2"></i>support@spokenenglishclass.com</li>
+            <li class="mb-2"><i class="bi bi-geo-alt me-2"></i>Thanjavur, Tamil Nadu, India</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2026 Spoken English Class. All rights reserved. Built for learners, by learners.
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" aria-label="Back to top"><i class="bi bi-arrow-up"></i></button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
